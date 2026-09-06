@@ -1,0 +1,116 @@
+{
+  "dankKDEConnect": {
+    "enabled": true,
+    "selectedDeviceId": ""
+  },
+  "discordVoice": {
+    "enabled": true,
+    "accessToken": ""
+  },
+  "appShortcut": {
+    "enabled": true
+  },
+  "githubHeatmap": {
+    "enabled": true,
+    "username": "sheshanthShettyun",
+    "refreshInterval": 300
+  },
+  "mediaPlayer": {
+    "enabled": true
+  },
+  "dankAudioVisualizer": {
+    "enabled": true
+  },
+  "dmsScreenshot": {
+    "enabled": true,
+    "stdout": true,
+    "mode": "interactive"
+  },
+  "aiAssistant": {
+    "enabled": true,
+    "providers": {
+      "openai": {
+        "baseUrl": "https://api.openai.com",
+        "model": "gpt-5.2",
+        "apiKey": "",
+        "saveApiKey": false,
+        "apiKeyEnvVar": "",
+        "temperature": 0.7,
+        "maxTokens": 4096,
+        "timeout": 30
+      },
+      "anthropic": {
+        "baseUrl": "https://api.anthropic.com",
+        "model": "claude-sonnet-4-5",
+        "apiKey": "",
+        "saveApiKey": false,
+        "apiKeyEnvVar": "",
+        "temperature": 0.7,
+        "maxTokens": 4096,
+        "timeout": 30
+      },
+      "gemini": {
+        "baseUrl": "https://generativelanguage.googleapis.com",
+        "model": "gemini-3-flash-preview",
+        "apiKey": "",
+        "saveApiKey": false,
+        "apiKeyEnvVar": "",
+        "temperature": 0.7,
+        "maxTokens": 4096,
+        "timeout": 30
+      },
+      "inception": {
+        "baseUrl": "https://api.inceptionlabs.ai/v1",
+        "model": "mercury-2",
+        "apiKey": "",
+        "saveApiKey": false,
+        "apiKeyEnvVar": "",
+        "temperature": 0.75,
+        "maxTokens": 8192,
+        "timeout": 30,
+        "inceptionReasoningEffort": "medium",
+        "inceptionReasoningSummary": true,
+        "inceptionReasoningSummaryWait": false
+      },
+      "custom": {
+        "baseUrl": "https://api.openai.com",
+        "model": "gpt-5.2",
+        "apiKey": "",
+        "saveApiKey": false,
+        "apiKeyEnvVar": "",
+        "temperature": 0.7,
+        "maxTokens": 4096,
+        "timeout": 30
+      }
+    },
+    "provider": "openai",
+    "baseUrl": "https://api.openai.com",
+    "model": "gpt-5.2",
+    "apiKey": "",
+    "saveApiKey": false,
+    "apiKeyEnvVar": "",
+    "temperature": 0.7,
+    "maxTokens": 4096,
+    "timeout": 30
+  },
+  "sathiAi": {
+    "enabled": false,
+    "persistChatHistory": true,
+    "chatHistory": "[{\"role\":\"user\",\"content\":\"hello\"},{\"role\":\"user\",\"content\":\"hello\"},{\"role\":\"user\",\"content\":\"hello\"},{\"role\":\"user\",\"content\":\"hello\"},{\"role\":\"user\",\"content\":\"hello\"},{\"role\":\"user\",\"content\":\"hello\"},{\"role\":\"user\",\"content\":\"hello\"}]",
+    "openaiApiKey": "",
+    "geminiApiKey": "",
+    "aiModel": "gemini-2.5-flash-image"
+  },
+  "mpModern": {
+    "enabled": true
+  },
+  "usbDetect": {
+    "enabled": true
+  },
+  "screenTimeTracker": {
+    "enabled": true
+  },
+  "agentNotch": {
+    "enabled": true
+  }
+}
