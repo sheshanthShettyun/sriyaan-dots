@@ -278,14 +278,19 @@
   "appPickerViewMode": "grid",
   "filePickerUsageHistory": {
     "org.kde.ark": {
-      "count": 3,
-      "lastUsed": 1786968143403,
+      "count": 4,
+      "lastUsed": 1788950028000,
       "name": "Ark"
     },
     "libreoffice-writer": {
       "count": 1,
       "lastUsed": 1788449958437,
       "name": "LibreOffice Writer"
+    },
+    "org.gnome.Nautilus": {
+      "count": 1,
+      "lastUsed": 1788949300056,
+      "name": "Files"
     }
   },
   "sortAppsAlphabetically": false,
@@ -335,10 +340,10 @@
     }
   ],
   "networkPreference": "ethernet",
-  "iconThemeDark": "breeze-dark",
+  "iconThemeDark": "System Default",
   "iconThemeLight": "System Default",
   "iconThemePerMode": false,
-  "lastAppliedIconTheme": "breeze-dark",
+  "lastAppliedIconTheme": "",
   "cursorSettings": {
     "theme": "Breeze_Light",
     "size": 24,
